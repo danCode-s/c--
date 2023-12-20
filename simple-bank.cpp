@@ -3,9 +3,14 @@
 
 double balance = 0.0;
 double amount;
+
+
+
 void showBalance(){
     std::cout << "Your Current balance: $" << balance << std::endl; 
 };
+
+
 
 void deposit(){
     std::cout << "Enter Amount to Deposit: ";
@@ -16,6 +21,9 @@ void deposit(){
     std::cout << "New Balance: $" << balance << std::endl;
     
 };
+
+
+
 
 void withdraw(){
     std::cout << "\nEnter Amount to Withdraw: ";
@@ -29,7 +37,10 @@ void withdraw(){
 
     }
 
-}
+};
+
+
+
 int main(){
     char choice;
     std::cout <<"********Simple Bank Program********" << std::endl;
@@ -60,6 +71,6 @@ int main(){
         default:
             std::cout << "Invalid Input";
             break;
-        }
-    }
+        };
+    };
 };
